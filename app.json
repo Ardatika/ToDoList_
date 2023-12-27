@@ -1,5 +1,6 @@
 {
   "expo": {
+<<<<<<< HEAD
     "name": "Arda Todo List",
     "slug": "TodoList",
     "version": "1.0.0",
@@ -8,6 +9,17 @@
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash-custom.png",
+=======
+    "scheme": "my-scheme",
+    "name": "nav-two",
+    "slug": "nav-two",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+>>>>>>> 809fbe46dae5f39b8ab23034d8ae75a3d1428d16
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -19,18 +31,30 @@
     },
     "android": {
       "adaptiveIcon": {
+<<<<<<< HEAD
         "foregroundImage": "./assets/splash-custom.png",
         "backgroundColor": "#ffffff"
       },
       "package": "com.ardatika.TodoList"
+=======
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+>>>>>>> 809fbe46dae5f39b8ab23034d8ae75a3d1428d16
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
+<<<<<<< HEAD
     "extra": {
       "eas": {
         "projectId": "7e1a4d52-9c81-4adf-919a-ab69c73a5852"
       }
     }
+=======
+    "plugins": [
+      "expo-router"
+    ]
+>>>>>>> 809fbe46dae5f39b8ab23034d8ae75a3d1428d16
   }
 }
