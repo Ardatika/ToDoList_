@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "TodoList",
+    "name": "Arda Todo List",
     "slug": "TodoList",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/splash-custom.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/splash-custom.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -19,12 +19,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/splash-custom.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.ardatika.TodoList"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7e1a4d52-9c81-4adf-919a-ab69c73a5852"
+      }
     }
   }
 }
